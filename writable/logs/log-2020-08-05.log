@@ -1,0 +1,690 @@
+CRITICAL - 2020-08-05 00:19:39 --> Undefined index: firstname
+#0 D:\Projects\RealEstate\app\Views\backend\user.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Projects\\Rea...', 37, Array)
+#1 D:\Projects\RealEstate\system\View\View.php(246): include('D:\\Projects\\Rea...')
+#2 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('backend/user', Array, true)
+#3 D:\Projects\RealEstate\app\Controllers\Backend\User.php(74): view('backend/user', Array)
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->leads('edit', '14')
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-05 00:20:03 --> Undefined index: firstname
+#0 D:\Projects\RealEstate\app\Views\backend\user.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Projects\\Rea...', 37, Array)
+#1 D:\Projects\RealEstate\system\View\View.php(246): include('D:\\Projects\\Rea...')
+#2 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('backend/user', Array, true)
+#3 D:\Projects\RealEstate\app\Controllers\Backend\User.php(74): view('backend/user', Array)
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->leads('edit', '12')
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-05 00:22:54 --> You must set the database table to be used with your query.
+#0 D:\Projects\RealEstate\system\Model.php(1206): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\Projects\RealEstate\system\Model.php(1714): CodeIgniter\Model->builder()
+#2 D:\Projects\RealEstate\app\Controllers\Backend\User.php(82): CodeIgniter\Model->__call('getAgents', Array)
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->agents()
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#8 {main}
+CRITICAL - 2020-08-05 00:22:59 --> You must set the database table to be used with your query.
+#0 D:\Projects\RealEstate\system\Model.php(1206): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\Projects\RealEstate\system\Model.php(1714): CodeIgniter\Model->builder()
+#2 D:\Projects\RealEstate\app\Controllers\Backend\User.php(82): CodeIgniter\Model->__call('getAgents', Array)
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->agents()
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#8 {main}
+CRITICAL - 2020-08-05 00:22:59 --> You must set the database table to be used with your query.
+#0 D:\Projects\RealEstate\system\Model.php(1206): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\Projects\RealEstate\system\Model.php(1714): CodeIgniter\Model->builder()
+#2 D:\Projects\RealEstate\app\Controllers\Backend\User.php(82): CodeIgniter\Model->__call('getAgents', Array)
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->agents()
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#8 {main}
+CRITICAL - 2020-08-05 00:23:00 --> You must set the database table to be used with your query.
+#0 D:\Projects\RealEstate\system\Model.php(1206): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\Projects\RealEstate\system\Model.php(1714): CodeIgniter\Model->builder()
+#2 D:\Projects\RealEstate\app\Controllers\Backend\User.php(82): CodeIgniter\Model->__call('getAgents', Array)
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->agents()
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#8 {main}
+CRITICAL - 2020-08-05 00:23:00 --> You must set the database table to be used with your query.
+#0 D:\Projects\RealEstate\system\Model.php(1206): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\Projects\RealEstate\system\Model.php(1714): CodeIgniter\Model->builder()
+#2 D:\Projects\RealEstate\app\Controllers\Backend\User.php(82): CodeIgniter\Model->__call('getAgents', Array)
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->agents()
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#8 {main}
+CRITICAL - 2020-08-05 00:28:25 --> You must set the database table to be used with your query.
+#0 D:\Projects\RealEstate\system\Model.php(1206): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\Projects\RealEstate\system\Model.php(1714): CodeIgniter\Model->builder()
+#2 D:\Projects\RealEstate\app\Controllers\Backend\User.php(82): CodeIgniter\Model->__call('getAgents', Array)
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->agents()
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#8 {main}
+CRITICAL - 2020-08-05 00:28:25 --> You must set the database table to be used with your query.
+#0 D:\Projects\RealEstate\system\Model.php(1206): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\Projects\RealEstate\system\Model.php(1714): CodeIgniter\Model->builder()
+#2 D:\Projects\RealEstate\app\Controllers\Backend\User.php(82): CodeIgniter\Model->__call('getAgents', Array)
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->agents()
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#8 {main}
+CRITICAL - 2020-08-05 00:28:27 --> You must set the database table to be used with your query.
+#0 D:\Projects\RealEstate\system\Model.php(1206): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\Projects\RealEstate\system\Model.php(1714): CodeIgniter\Model->builder()
+#2 D:\Projects\RealEstate\app\Controllers\Backend\User.php(82): CodeIgniter\Model->__call('getAgents', Array)
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->agents()
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#8 {main}
+CRITICAL - 2020-08-05 00:28:27 --> You must set the database table to be used with your query.
+#0 D:\Projects\RealEstate\system\Model.php(1206): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\Projects\RealEstate\system\Model.php(1714): CodeIgniter\Model->builder()
+#2 D:\Projects\RealEstate\app\Controllers\Backend\User.php(82): CodeIgniter\Model->__call('getAgents', Array)
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->agents()
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#8 {main}
+CRITICAL - 2020-08-05 00:28:28 --> You must set the database table to be used with your query.
+#0 D:\Projects\RealEstate\system\Model.php(1206): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\Projects\RealEstate\system\Model.php(1714): CodeIgniter\Model->builder()
+#2 D:\Projects\RealEstate\app\Controllers\Backend\User.php(82): CodeIgniter\Model->__call('getAgents', Array)
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->agents()
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#8 {main}
+CRITICAL - 2020-08-05 00:28:28 --> You must set the database table to be used with your query.
+#0 D:\Projects\RealEstate\system\Model.php(1206): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\Projects\RealEstate\system\Model.php(1714): CodeIgniter\Model->builder()
+#2 D:\Projects\RealEstate\app\Controllers\Backend\User.php(82): CodeIgniter\Model->__call('getAgents', Array)
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->agents()
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#8 {main}
+CRITICAL - 2020-08-05 00:28:28 --> You must set the database table to be used with your query.
+#0 D:\Projects\RealEstate\system\Model.php(1206): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\Projects\RealEstate\system\Model.php(1714): CodeIgniter\Model->builder()
+#2 D:\Projects\RealEstate\app\Controllers\Backend\User.php(82): CodeIgniter\Model->__call('getAgents', Array)
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->agents()
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#8 {main}
+CRITICAL - 2020-08-05 00:39:25 --> Undefined index: phone
+#0 D:\Projects\RealEstate\app\Views\backend\agents.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Projects\\Rea...', 47, Array)
+#1 D:\Projects\RealEstate\system\View\View.php(246): include('D:\\Projects\\Rea...')
+#2 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('backend/agents', Array, true)
+#3 D:\Projects\RealEstate\app\Controllers\Backend\User.php(83): view('backend/agents', Array)
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->agents()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-05 00:39:54 --> Undefined index: status
+#0 D:\Projects\RealEstate\app\Views\backend\agents.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Projects\\Rea...', 53, Array)
+#1 D:\Projects\RealEstate\system\View\View.php(246): include('D:\\Projects\\Rea...')
+#2 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('backend/agents', Array, true)
+#3 D:\Projects\RealEstate\app\Controllers\Backend\User.php(83): view('backend/agents', Array)
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->agents()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-05 01:21:04 --> You must set the database table to be used with your query.
+#0 D:\Projects\RealEstate\system\Model.php(1206): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\Projects\RealEstate\system\Model.php(1662): CodeIgniter\Model->builder()
+#2 D:\Projects\RealEstate\app\Models\UserModel.php(91): CodeIgniter\Model->__get('status')
+#3 D:\Projects\RealEstate\app\Controllers\Backend\User.php(82): App\Models\UserModel->getAllUsersByRole('agent')
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->agents()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-05 01:23:50 --> You must set the database table to be used with your query.
+#0 D:\Projects\RealEstate\system\Model.php(1206): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\Projects\RealEstate\system\Model.php(1662): CodeIgniter\Model->builder()
+#2 D:\Projects\RealEstate\app\Models\UserModel.php(91): CodeIgniter\Model->__get('status')
+#3 D:\Projects\RealEstate\app\Controllers\Backend\User.php(82): App\Models\UserModel->getAllUsersByRole('agent')
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->agents()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-05 01:23:51 --> You must set the database table to be used with your query.
+#0 D:\Projects\RealEstate\system\Model.php(1206): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\Projects\RealEstate\system\Model.php(1662): CodeIgniter\Model->builder()
+#2 D:\Projects\RealEstate\app\Models\UserModel.php(91): CodeIgniter\Model->__get('status')
+#3 D:\Projects\RealEstate\app\Controllers\Backend\User.php(82): App\Models\UserModel->getAllUsersByRole('agent')
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->agents()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-05 01:23:51 --> You must set the database table to be used with your query.
+#0 D:\Projects\RealEstate\system\Model.php(1206): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\Projects\RealEstate\system\Model.php(1662): CodeIgniter\Model->builder()
+#2 D:\Projects\RealEstate\app\Models\UserModel.php(91): CodeIgniter\Model->__get('status')
+#3 D:\Projects\RealEstate\app\Controllers\Backend\User.php(82): App\Models\UserModel->getAllUsersByRole('agent')
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->agents()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-05 01:23:52 --> You must set the database table to be used with your query.
+#0 D:\Projects\RealEstate\system\Model.php(1206): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\Projects\RealEstate\system\Model.php(1662): CodeIgniter\Model->builder()
+#2 D:\Projects\RealEstate\app\Models\UserModel.php(91): CodeIgniter\Model->__get('status')
+#3 D:\Projects\RealEstate\app\Controllers\Backend\User.php(82): App\Models\UserModel->getAllUsersByRole('agent')
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->agents()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-05 01:23:52 --> You must set the database table to be used with your query.
+#0 D:\Projects\RealEstate\system\Model.php(1206): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\Projects\RealEstate\system\Model.php(1662): CodeIgniter\Model->builder()
+#2 D:\Projects\RealEstate\app\Models\UserModel.php(91): CodeIgniter\Model->__get('status')
+#3 D:\Projects\RealEstate\app\Controllers\Backend\User.php(82): App\Models\UserModel->getAllUsersByRole('agent')
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->agents()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-05 01:23:52 --> You must set the database table to be used with your query.
+#0 D:\Projects\RealEstate\system\Model.php(1206): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\Projects\RealEstate\system\Model.php(1662): CodeIgniter\Model->builder()
+#2 D:\Projects\RealEstate\app\Models\UserModel.php(91): CodeIgniter\Model->__get('status')
+#3 D:\Projects\RealEstate\app\Controllers\Backend\User.php(82): App\Models\UserModel->getAllUsersByRole('agent')
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->agents()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-05 01:23:52 --> You must set the database table to be used with your query.
+#0 D:\Projects\RealEstate\system\Model.php(1206): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\Projects\RealEstate\system\Model.php(1662): CodeIgniter\Model->builder()
+#2 D:\Projects\RealEstate\app\Models\UserModel.php(91): CodeIgniter\Model->__get('status')
+#3 D:\Projects\RealEstate\app\Controllers\Backend\User.php(82): App\Models\UserModel->getAllUsersByRole('agent')
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->agents()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-05 01:25:03 --> You must set the database table to be used with your query.
+#0 D:\Projects\RealEstate\system\Model.php(1206): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\Projects\RealEstate\system\Model.php(1662): CodeIgniter\Model->builder()
+#2 D:\Projects\RealEstate\app\Models\UserModel.php(91): CodeIgniter\Model->__get('status')
+#3 D:\Projects\RealEstate\app\Controllers\Backend\User.php(82): App\Models\UserModel->getAllUsersByRole('agent')
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->agents()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-05 01:25:03 --> You must set the database table to be used with your query.
+#0 D:\Projects\RealEstate\system\Model.php(1206): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\Projects\RealEstate\system\Model.php(1662): CodeIgniter\Model->builder()
+#2 D:\Projects\RealEstate\app\Models\UserModel.php(91): CodeIgniter\Model->__get('status')
+#3 D:\Projects\RealEstate\app\Controllers\Backend\User.php(82): App\Models\UserModel->getAllUsersByRole('agent')
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->agents()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-05 01:25:04 --> You must set the database table to be used with your query.
+#0 D:\Projects\RealEstate\system\Model.php(1206): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\Projects\RealEstate\system\Model.php(1662): CodeIgniter\Model->builder()
+#2 D:\Projects\RealEstate\app\Models\UserModel.php(91): CodeIgniter\Model->__get('status')
+#3 D:\Projects\RealEstate\app\Controllers\Backend\User.php(82): App\Models\UserModel->getAllUsersByRole('agent')
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->agents()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-05 01:25:04 --> You must set the database table to be used with your query.
+#0 D:\Projects\RealEstate\system\Model.php(1206): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\Projects\RealEstate\system\Model.php(1662): CodeIgniter\Model->builder()
+#2 D:\Projects\RealEstate\app\Models\UserModel.php(91): CodeIgniter\Model->__get('status')
+#3 D:\Projects\RealEstate\app\Controllers\Backend\User.php(82): App\Models\UserModel->getAllUsersByRole('agent')
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->agents()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-05 01:25:04 --> You must set the database table to be used with your query.
+#0 D:\Projects\RealEstate\system\Model.php(1206): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\Projects\RealEstate\system\Model.php(1662): CodeIgniter\Model->builder()
+#2 D:\Projects\RealEstate\app\Models\UserModel.php(91): CodeIgniter\Model->__get('status')
+#3 D:\Projects\RealEstate\app\Controllers\Backend\User.php(82): App\Models\UserModel->getAllUsersByRole('agent')
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->agents()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-05 01:25:05 --> You must set the database table to be used with your query.
+#0 D:\Projects\RealEstate\system\Model.php(1206): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\Projects\RealEstate\system\Model.php(1662): CodeIgniter\Model->builder()
+#2 D:\Projects\RealEstate\app\Models\UserModel.php(91): CodeIgniter\Model->__get('status')
+#3 D:\Projects\RealEstate\app\Controllers\Backend\User.php(82): App\Models\UserModel->getAllUsersByRole('agent')
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->agents()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-05 01:25:05 --> You must set the database table to be used with your query.
+#0 D:\Projects\RealEstate\system\Model.php(1206): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\Projects\RealEstate\system\Model.php(1662): CodeIgniter\Model->builder()
+#2 D:\Projects\RealEstate\app\Models\UserModel.php(91): CodeIgniter\Model->__get('status')
+#3 D:\Projects\RealEstate\app\Controllers\Backend\User.php(82): App\Models\UserModel->getAllUsersByRole('agent')
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->agents()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-05 01:25:05 --> You must set the database table to be used with your query.
+#0 D:\Projects\RealEstate\system\Model.php(1206): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\Projects\RealEstate\system\Model.php(1662): CodeIgniter\Model->builder()
+#2 D:\Projects\RealEstate\app\Models\UserModel.php(91): CodeIgniter\Model->__get('status')
+#3 D:\Projects\RealEstate\app\Controllers\Backend\User.php(82): App\Models\UserModel->getAllUsersByRole('agent')
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->agents()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-05 01:25:06 --> You must set the database table to be used with your query.
+#0 D:\Projects\RealEstate\system\Model.php(1206): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\Projects\RealEstate\system\Model.php(1662): CodeIgniter\Model->builder()
+#2 D:\Projects\RealEstate\app\Models\UserModel.php(91): CodeIgniter\Model->__get('status')
+#3 D:\Projects\RealEstate\app\Controllers\Backend\User.php(82): App\Models\UserModel->getAllUsersByRole('agent')
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->agents()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-05 01:28:05 --> You must set the database table to be used with your query.
+#0 D:\Projects\RealEstate\system\Model.php(1206): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\Projects\RealEstate\system\Model.php(1662): CodeIgniter\Model->builder()
+#2 D:\Projects\RealEstate\app\Models\UserModel.php(91): CodeIgniter\Model->__get('status')
+#3 D:\Projects\RealEstate\app\Controllers\Backend\User.php(82): App\Models\UserModel->getAllUsersByRole('agent')
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->agents()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-05 01:28:06 --> You must set the database table to be used with your query.
+#0 D:\Projects\RealEstate\system\Model.php(1206): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\Projects\RealEstate\system\Model.php(1662): CodeIgniter\Model->builder()
+#2 D:\Projects\RealEstate\app\Models\UserModel.php(91): CodeIgniter\Model->__get('status')
+#3 D:\Projects\RealEstate\app\Controllers\Backend\User.php(82): App\Models\UserModel->getAllUsersByRole('agent')
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->agents()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-05 01:30:12 --> You must set the database table to be used with your query.
+#0 D:\Projects\RealEstate\system\Model.php(1206): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\Projects\RealEstate\system\Model.php(1662): CodeIgniter\Model->builder()
+#2 D:\Projects\RealEstate\app\Models\UserModel.php(91): CodeIgniter\Model->__get('status')
+#3 D:\Projects\RealEstate\app\Controllers\Backend\User.php(82): App\Models\UserModel->getAllUsersByRole('agent')
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->agents()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-05 01:30:13 --> You must set the database table to be used with your query.
+#0 D:\Projects\RealEstate\system\Model.php(1206): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\Projects\RealEstate\system\Model.php(1662): CodeIgniter\Model->builder()
+#2 D:\Projects\RealEstate\app\Models\UserModel.php(91): CodeIgniter\Model->__get('status')
+#3 D:\Projects\RealEstate\app\Controllers\Backend\User.php(82): App\Models\UserModel->getAllUsersByRole('agent')
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->agents()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-05 01:30:13 --> You must set the database table to be used with your query.
+#0 D:\Projects\RealEstate\system\Model.php(1206): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\Projects\RealEstate\system\Model.php(1662): CodeIgniter\Model->builder()
+#2 D:\Projects\RealEstate\app\Models\UserModel.php(91): CodeIgniter\Model->__get('status')
+#3 D:\Projects\RealEstate\app\Controllers\Backend\User.php(82): App\Models\UserModel->getAllUsersByRole('agent')
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->agents()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-05 01:30:14 --> You must set the database table to be used with your query.
+#0 D:\Projects\RealEstate\system\Model.php(1206): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\Projects\RealEstate\system\Model.php(1662): CodeIgniter\Model->builder()
+#2 D:\Projects\RealEstate\app\Models\UserModel.php(91): CodeIgniter\Model->__get('status')
+#3 D:\Projects\RealEstate\app\Controllers\Backend\User.php(82): App\Models\UserModel->getAllUsersByRole('agent')
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->agents()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-05 01:30:14 --> You must set the database table to be used with your query.
+#0 D:\Projects\RealEstate\system\Model.php(1206): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\Projects\RealEstate\system\Model.php(1662): CodeIgniter\Model->builder()
+#2 D:\Projects\RealEstate\app\Models\UserModel.php(91): CodeIgniter\Model->__get('status')
+#3 D:\Projects\RealEstate\app\Controllers\Backend\User.php(82): App\Models\UserModel->getAllUsersByRole('agent')
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->agents()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-05 01:30:45 --> You must set the database table to be used with your query.
+#0 D:\Projects\RealEstate\system\Model.php(1206): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\Projects\RealEstate\system\Model.php(1662): CodeIgniter\Model->builder()
+#2 D:\Projects\RealEstate\app\Models\UserModel.php(91): CodeIgniter\Model->__get('status')
+#3 D:\Projects\RealEstate\app\Controllers\Backend\User.php(82): App\Models\UserModel->getAllUsersByRole('agent')
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->agents()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-05 01:30:45 --> You must set the database table to be used with your query.
+#0 D:\Projects\RealEstate\system\Model.php(1206): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\Projects\RealEstate\system\Model.php(1662): CodeIgniter\Model->builder()
+#2 D:\Projects\RealEstate\app\Models\UserModel.php(91): CodeIgniter\Model->__get('status')
+#3 D:\Projects\RealEstate\app\Controllers\Backend\User.php(82): App\Models\UserModel->getAllUsersByRole('agent')
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->agents()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-05 01:30:45 --> You must set the database table to be used with your query.
+#0 D:\Projects\RealEstate\system\Model.php(1206): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\Projects\RealEstate\system\Model.php(1662): CodeIgniter\Model->builder()
+#2 D:\Projects\RealEstate\app\Models\UserModel.php(91): CodeIgniter\Model->__get('status')
+#3 D:\Projects\RealEstate\app\Controllers\Backend\User.php(82): App\Models\UserModel->getAllUsersByRole('agent')
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->agents()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-05 01:30:45 --> You must set the database table to be used with your query.
+#0 D:\Projects\RealEstate\system\Model.php(1206): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\Projects\RealEstate\system\Model.php(1662): CodeIgniter\Model->builder()
+#2 D:\Projects\RealEstate\app\Models\UserModel.php(91): CodeIgniter\Model->__get('status')
+#3 D:\Projects\RealEstate\app\Controllers\Backend\User.php(82): App\Models\UserModel->getAllUsersByRole('agent')
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->agents()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-05 01:30:46 --> You must set the database table to be used with your query.
+#0 D:\Projects\RealEstate\system\Model.php(1206): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\Projects\RealEstate\system\Model.php(1662): CodeIgniter\Model->builder()
+#2 D:\Projects\RealEstate\app\Models\UserModel.php(91): CodeIgniter\Model->__get('status')
+#3 D:\Projects\RealEstate\app\Controllers\Backend\User.php(82): App\Models\UserModel->getAllUsersByRole('agent')
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->agents()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-05 01:30:46 --> You must set the database table to be used with your query.
+#0 D:\Projects\RealEstate\system\Model.php(1206): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\Projects\RealEstate\system\Model.php(1662): CodeIgniter\Model->builder()
+#2 D:\Projects\RealEstate\app\Models\UserModel.php(91): CodeIgniter\Model->__get('status')
+#3 D:\Projects\RealEstate\app\Controllers\Backend\User.php(82): App\Models\UserModel->getAllUsersByRole('agent')
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->agents()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-05 03:03:17 --> Undefined variable: type
+#0 D:\Projects\RealEstate\app\Views\backend\agents.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 56, Array)
+#1 D:\Projects\RealEstate\system\View\View.php(246): include('D:\\Projects\\Rea...')
+#2 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('backend/agents', Array, true)
+#3 D:\Projects\RealEstate\app\Controllers\Backend\User.php(83): view('backend/agents', Array)
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->agents()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-05 03:18:56 --> Undefined variable: section
+#0 D:\Projects\RealEstate\app\Views\backend\agents.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 21, Array)
+#1 D:\Projects\RealEstate\system\View\View.php(246): include('D:\\Projects\\Rea...')
+#2 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('backend/agents', Array, true)
+#3 D:\Projects\RealEstate\app\Controllers\Backend\User.php(87): view('backend/agents', Array)
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->agents('view', '10')
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-05 03:21:17 --> Undefined variable: section
+#0 D:\Projects\RealEstate\app\Views\backend\agents.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 21, Array)
+#1 D:\Projects\RealEstate\system\View\View.php(246): include('D:\\Projects\\Rea...')
+#2 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('backend/agents', Array, true)
+#3 D:\Projects\RealEstate\app\Controllers\Backend\User.php(96): view('backend/agents', Array)
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->agents('view', '10')
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-05 03:21:54 --> Undefined variable: section
+#0 D:\Projects\RealEstate\app\Views\backend\agents.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 21, Array)
+#1 D:\Projects\RealEstate\system\View\View.php(246): include('D:\\Projects\\Rea...')
+#2 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('backend/agents', Array, true)
+#3 D:\Projects\RealEstate\app\Controllers\Backend\User.php(96): view('backend/agents', Array)
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->agents()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-05 03:21:58 --> Undefined variable: section
+#0 D:\Projects\RealEstate\app\Views\backend\agents.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 21, Array)
+#1 D:\Projects\RealEstate\system\View\View.php(246): include('D:\\Projects\\Rea...')
+#2 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('backend/agents', Array, true)
+#3 D:\Projects\RealEstate\app\Controllers\Backend\User.php(96): view('backend/agents', Array)
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->agents()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-05 03:22:44 --> Undefined variable: section
+#0 D:\Projects\RealEstate\app\Views\backend\agents.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 21, Array)
+#1 D:\Projects\RealEstate\system\View\View.php(246): include('D:\\Projects\\Rea...')
+#2 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('backend/agents', Array, true)
+#3 D:\Projects\RealEstate\app\Controllers\Backend\User.php(96): view('backend/agents', Array)
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->agents()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-05 03:22:45 --> Undefined variable: section
+#0 D:\Projects\RealEstate\app\Views\backend\agents.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 21, Array)
+#1 D:\Projects\RealEstate\system\View\View.php(246): include('D:\\Projects\\Rea...')
+#2 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('backend/agents', Array, true)
+#3 D:\Projects\RealEstate\app\Controllers\Backend\User.php(96): view('backend/agents', Array)
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->agents()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-05 04:32:04 --> No connection could be made because the target machine actively refused it.
+
+#0 D:\Projects\RealEstate\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Projects\RealEstate\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Projects\RealEstate\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\Projects\RealEstate\app\Models\PropertyModel.php(133): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\Projects\RealEstate\app\Controllers\Home.php(16): App\Models\PropertyModel->getAllFeaturedProperties()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#10 {main}
+CRITICAL - 2020-08-05 04:41:02 --> syntax error, unexpected '}'
+#0 D:\Projects\RealEstate\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('backend/user/ag...')
+#1 D:\Projects\RealEstate\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('backend/user/ag...')
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#6 {main}
+CRITICAL - 2020-08-05 04:41:17 --> Undefined variable: query
+#0 D:\Projects\RealEstate\app\Models\UserModel.php(114): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 114, Array)
+#1 D:\Projects\RealEstate\app\Controllers\Backend\User.php(86): App\Models\UserModel->getUserDetail('10')
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->agents('profile', '10')
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#7 {main}
+CRITICAL - 2020-08-05 09:56:10 --> No connection could be made because the target machine actively refused it.
+
+#0 D:\Projects\RealEstate\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Projects\RealEstate\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Projects\RealEstate\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\Projects\RealEstate\app\Models\PropertyModel.php(133): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\Projects\RealEstate\app\Controllers\Home.php(16): App\Models\PropertyModel->getAllFeaturedProperties()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#10 {main}
+CRITICAL - 2020-08-05 09:56:40 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in D:\Projects\RealEstate\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'D:\\Projects\\Rea...', 100, Array)
+#1 D:\Projects\RealEstate\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Home), true)
+#2 D:\Projects\RealEstate\system\Debug\Exceptions.php(299): include('D:\\Projects\\Rea...')
+#3 D:\Projects\RealEstate\system\Debug\Exceptions.php(172): CodeIgniter\Debug\Exceptions->render(Object(mysqli_sql_exception), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-05 10:02:32 --> Undefined variable: sessTemp
+#0 D:\Projects\RealEstate\app\Controllers\Auth.php(288): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 288, Array)
+#1 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Auth->verify()
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#6 {main}
+CRITICAL - 2020-08-05 10:17:28 --> Undefined index: redirect
+#0 D:\Projects\RealEstate\app\Controllers\Auth.php(288): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Projects\\Rea...', 288, Array)
+#1 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Auth->verify()
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#6 {main}
+CRITICAL - 2020-08-05 10:32:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL' at line 5
+#0 D:\Projects\RealEstate\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `_proper...')
+#1 D:\Projects\RealEstate\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `_proper...')
+#2 D:\Projects\RealEstate\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `_proper...')
+#3 D:\Projects\RealEstate\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT `_proper...', Array, false)
+#4 D:\Projects\RealEstate\app\Models\PropertyModel.php(253): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Projects\RealEstate\app\Controllers\Home.php(72): App\Models\PropertyModel->searchPropertyAjax(NULL, NULL)
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Home->browse()
+#7 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#11 {main}
+CRITICAL - 2020-08-05 22:29:15 --> No connection could be made because the target machine actively refused it.
+
+#0 D:\Projects\RealEstate\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Projects\RealEstate\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Projects\RealEstate\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\Projects\RealEstate\app\Models\PropertyModel.php(133): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\Projects\RealEstate\app\Controllers\Home.php(16): App\Models\PropertyModel->getAllFeaturedProperties()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#10 {main}
+CRITICAL - 2020-08-05 22:29:15 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in D:\Projects\RealEstate\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'D:\\Projects\\Rea...', 100, Array)
+#1 D:\Projects\RealEstate\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Home), true)
+#2 D:\Projects\RealEstate\system\Debug\Exceptions.php(299): include('D:\\Projects\\Rea...')
+#3 D:\Projects\RealEstate\system\Debug\Exceptions.php(172): CodeIgniter\Debug\Exceptions->render(Object(mysqli_sql_exception), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-05 22:54:39 --> Undefined variable: title
+#0 D:\Projects\RealEstate\app\Views\common\layout.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 19, Array)
+#1 D:\Projects\RealEstate\system\View\View.php(246): include('D:\\Projects\\Rea...')
+#2 D:\Projects\RealEstate\system\View\View.php(257): CodeIgniter\View\View->render('common/layout', Array, true)
+#3 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('email-template/...', Array, true)
+#4 D:\Projects\RealEstate\app\Controllers\Auth.php(329): view('email-template/...')
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Auth->emailTemplate()
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#10 {main}

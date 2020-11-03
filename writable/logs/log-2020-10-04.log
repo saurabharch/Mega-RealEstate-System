@@ -1,0 +1,57 @@
+CRITICAL - 2020-10-04 23:41:54 --> Your server does not support the GD function required to process this type of image. Ima
+#0 D:\Projects\RealEstate\system\Images\Handlers\GDHandler.php(423): CodeIgniter\Images\Exceptions\ImageException::forInvalidImageCreate('Ima')
+#1 D:\Projects\RealEstate\system\Images\Handlers\GDHandler.php(274): CodeIgniter\Images\Handlers\GDHandler->createImage()
+#2 D:\Projects\RealEstate\system\Images\Handlers\GDHandler.php(243): CodeIgniter\Images\Handlers\GDHandler->process('crop')
+#3 D:\Projects\RealEstate\system\Images\Handlers\BaseHandler.php(330): CodeIgniter\Images\Handlers\GDHandler->_crop()
+#4 D:\Projects\RealEstate\system\Images\Handlers\BaseHandler.php(629): CodeIgniter\Images\Handlers\BaseHandler->crop(1135, 757, 0, 0)
+#5 D:\Projects\RealEstate\app\Controllers\Backend\Properties.php(460): CodeIgniter\Images\Handlers\BaseHandler->fit(348, 232, 'center')
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\Properties->edit('21')
+#7 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Properties))
+#8 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#11 {main}
+CRITICAL - 2020-10-04 23:42:07 --> unlink(D:\Projects\RealEstate\public\property-images/thumbnails/1601872914_d8a9645d6ec34027ecfb.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(D:\\Proje...', 'D:\\Projects\\Rea...', 364, Array)
+#1 D:\Projects\RealEstate\app\Controllers\Backend\Properties.php(364): unlink('D:\\Projects\\Rea...')
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\Properties->removePropertyImage()
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Properties))
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#7 {main}
+CRITICAL - 2020-10-04 23:42:09 --> unlink(D:\Projects\RealEstate\public\property-images/1601872914_d8a9645d6ec34027ecfb.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(D:\\Proje...', 'D:\\Projects\\Rea...', 363, Array)
+#1 D:\Projects\RealEstate\app\Controllers\Backend\Properties.php(363): unlink('D:\\Projects\\Rea...')
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\Properties->removePropertyImage()
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Properties))
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#7 {main}
+CRITICAL - 2020-10-04 23:42:28 --> Your server does not support the GD function required to process this type of image. Ima
+#0 D:\Projects\RealEstate\system\Images\Handlers\GDHandler.php(423): CodeIgniter\Images\Exceptions\ImageException::forInvalidImageCreate('Ima')
+#1 D:\Projects\RealEstate\system\Images\Handlers\GDHandler.php(274): CodeIgniter\Images\Handlers\GDHandler->createImage()
+#2 D:\Projects\RealEstate\system\Images\Handlers\GDHandler.php(243): CodeIgniter\Images\Handlers\GDHandler->process('crop')
+#3 D:\Projects\RealEstate\system\Images\Handlers\BaseHandler.php(330): CodeIgniter\Images\Handlers\GDHandler->_crop()
+#4 D:\Projects\RealEstate\system\Images\Handlers\BaseHandler.php(629): CodeIgniter\Images\Handlers\BaseHandler->crop(1135, 757, 0, 0)
+#5 D:\Projects\RealEstate\app\Controllers\Backend\Properties.php(460): CodeIgniter\Images\Handlers\BaseHandler->fit(348, 232, 'center')
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\Properties->edit('21')
+#7 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Properties))
+#8 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#11 {main}
+CRITICAL - 2020-10-04 23:42:58 --> Your server does not support the GD function required to process this type of image. Ima
+#0 D:\Projects\RealEstate\system\Images\Handlers\GDHandler.php(423): CodeIgniter\Images\Exceptions\ImageException::forInvalidImageCreate('Ima')
+#1 D:\Projects\RealEstate\system\Images\Handlers\GDHandler.php(274): CodeIgniter\Images\Handlers\GDHandler->createImage()
+#2 D:\Projects\RealEstate\system\Images\Handlers\GDHandler.php(243): CodeIgniter\Images\Handlers\GDHandler->process('crop')
+#3 D:\Projects\RealEstate\system\Images\Handlers\BaseHandler.php(330): CodeIgniter\Images\Handlers\GDHandler->_crop()
+#4 D:\Projects\RealEstate\system\Images\Handlers\BaseHandler.php(629): CodeIgniter\Images\Handlers\BaseHandler->crop(1135, 757, 0, 0)
+#5 D:\Projects\RealEstate\app\Controllers\Backend\Properties.php(460): CodeIgniter\Images\Handlers\BaseHandler->fit(348, 232, 'center')
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\Properties->edit('21')
+#7 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Properties))
+#8 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#11 {main}

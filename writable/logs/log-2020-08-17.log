@@ -1,0 +1,781 @@
+CRITICAL - 2020-08-17 00:03:33 --> Undefined variable: data
+#0 D:\Projects\RealEstate\app\Models\UserModel.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 86, Array)
+#1 D:\Projects\RealEstate\app\Controllers\Backend\User.php(70): App\Models\UserModel->getLeads(NULL, 'undefined')
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->leads('edit', 'undefined')
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#7 {main}
+CRITICAL - 2020-08-17 00:06:01 --> Undefined index: status_badge
+#0 D:\Projects\RealEstate\app\Views\backend\settings.php(126): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Projects\\Rea...', 126, Array)
+#1 D:\Projects\RealEstate\system\View\View.php(246): include('D:\\Projects\\Rea...')
+#2 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('backend/setting...', Array, true)
+#3 D:\Projects\RealEstate\app\Controllers\Backend\Settings.php(21): view('backend/setting...', Array)
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\Settings->index()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Settings))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-17 00:20:08 --> syntax error, unexpected '$lead' (T_VARIABLE)
+#0 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('backend/user', Array, true)
+#1 D:\Projects\RealEstate\app\Controllers\Backend\User.php(81): view('backend/user', Array)
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->leads('edit', '14')
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#7 {main}
+CRITICAL - 2020-08-17 00:20:18 --> syntax error, unexpected '$lead' (T_VARIABLE)
+#0 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('backend/user', Array, true)
+#1 D:\Projects\RealEstate\app\Controllers\Backend\User.php(81): view('backend/user', Array)
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->leads('edit', '14')
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#7 {main}
+CRITICAL - 2020-08-17 00:20:19 --> syntax error, unexpected '$lead' (T_VARIABLE)
+#0 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('backend/user', Array, true)
+#1 D:\Projects\RealEstate\app\Controllers\Backend\User.php(81): view('backend/user', Array)
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->leads('edit', '14')
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#7 {main}
+CRITICAL - 2020-08-17 00:32:04 --> Undefined variable: section
+#0 D:\Projects\RealEstate\app\Views\backend\customers.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 21, Array)
+#1 D:\Projects\RealEstate\system\View\View.php(246): include('D:\\Projects\\Rea...')
+#2 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('backend/custome...', Array, true)
+#3 D:\Projects\RealEstate\app\Controllers\Backend\User.php(121): view('backend/custome...', Array)
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->customers()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-17 00:32:26 --> Undefined variable: section
+#0 D:\Projects\RealEstate\app\Views\backend\customers.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 21, Array)
+#1 D:\Projects\RealEstate\system\View\View.php(246): include('D:\\Projects\\Rea...')
+#2 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('backend/custome...', Array, true)
+#3 D:\Projects\RealEstate\app\Controllers\Backend\User.php(121): view('backend/custome...', Array)
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->customers()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-17 00:33:32 --> Undefined variable: section
+#0 D:\Projects\RealEstate\app\Views\backend\customers.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 21, Array)
+#1 D:\Projects\RealEstate\system\View\View.php(246): include('D:\\Projects\\Rea...')
+#2 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('backend/custome...', Array, true)
+#3 D:\Projects\RealEstate\app\Controllers\Backend\User.php(121): view('backend/custome...', Array)
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->customers('33')
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-17 00:35:26 --> Undefined variable: section
+#0 D:\Projects\RealEstate\app\Views\backend\customers.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 21, Array)
+#1 D:\Projects\RealEstate\system\View\View.php(246): include('D:\\Projects\\Rea...')
+#2 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('backend/custome...', Array, true)
+#3 D:\Projects\RealEstate\app\Controllers\Backend\User.php(121): view('backend/custome...', Array)
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->customers('33')
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-17 00:49:03 --> Undefined variable: section
+#0 D:\Projects\RealEstate\app\Views\backend\customers.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 21, Array)
+#1 D:\Projects\RealEstate\system\View\View.php(246): include('D:\\Projects\\Rea...')
+#2 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('backend/custome...', Array, true)
+#3 D:\Projects\RealEstate\app\Controllers\Backend\User.php(121): view('backend/custome...', Array)
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->customers('33')
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-17 00:53:56 --> Undefined index: status_badge
+#0 D:\Projects\RealEstate\app\Views\backend\settings.php(126): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Projects\\Rea...', 126, Array)
+#1 D:\Projects\RealEstate\system\View\View.php(246): include('D:\\Projects\\Rea...')
+#2 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('backend/setting...', Array, true)
+#3 D:\Projects\RealEstate\app\Controllers\Backend\Settings.php(21): view('backend/setting...', Array)
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\Settings->index()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Settings))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-17 01:10:42 --> Undefined variable: section
+#0 D:\Projects\RealEstate\app\Views\backend\customers.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 21, Array)
+#1 D:\Projects\RealEstate\system\View\View.php(246): include('D:\\Projects\\Rea...')
+#2 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('backend/custome...', Array, true)
+#3 D:\Projects\RealEstate\app\Controllers\Backend\User.php(121): view('backend/custome...', Array)
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->customers()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-17 01:20:28 --> Undefined variable: data
+#0 D:\Projects\RealEstate\app\Controllers\Dashboard.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 72, Array)
+#1 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Dashboard->profit_target()
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#6 {main}
+CRITICAL - 2020-08-17 01:20:31 --> Undefined variable: data
+#0 D:\Projects\RealEstate\app\Controllers\Dashboard.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 88, Array)
+#1 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Dashboard->messages()
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#6 {main}
+CRITICAL - 2020-08-17 01:28:37 --> Undefined index: status_badge
+#0 D:\Projects\RealEstate\app\Views\backend\settings.php(126): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Projects\\Rea...', 126, Array)
+#1 D:\Projects\RealEstate\system\View\View.php(246): include('D:\\Projects\\Rea...')
+#2 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('backend/setting...', Array, true)
+#3 D:\Projects\RealEstate\app\Controllers\Backend\Settings.php(21): view('backend/setting...', Array)
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\Settings->index()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Settings))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-17 02:04:04 --> Undefined index: status_badge
+#0 D:\Projects\RealEstate\app\Views\backend\settings.php(126): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Projects\\Rea...', 126, Array)
+#1 D:\Projects\RealEstate\system\View\View.php(246): include('D:\\Projects\\Rea...')
+#2 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('backend/setting...', Array, true)
+#3 D:\Projects\RealEstate\app\Controllers\Backend\Settings.php(21): view('backend/setting...', Array)
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\Settings->index()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Settings))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-17 03:38:45 --> Undefined variable: section
+#0 D:\Projects\RealEstate\app\Views\backend\customers.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 21, Array)
+#1 D:\Projects\RealEstate\system\View\View.php(246): include('D:\\Projects\\Rea...')
+#2 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('backend/custome...', Array, true)
+#3 D:\Projects\RealEstate\app\Controllers\Backend\User.php(121): view('backend/custome...', Array)
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->customers()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-17 04:47:05 --> Undefined variable: section
+#0 D:\Projects\RealEstate\app\Views\backend\customers.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 21, Array)
+#1 D:\Projects\RealEstate\system\View\View.php(246): include('D:\\Projects\\Rea...')
+#2 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('backend/custome...', Array, true)
+#3 D:\Projects\RealEstate\app\Controllers\Backend\User.php(121): view('backend/custome...', Array)
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->customers('33')
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-17 04:47:23 --> Undefined variable: data
+#0 D:\Projects\RealEstate\app\Models\UserModel.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 86, Array)
+#1 D:\Projects\RealEstate\app\Controllers\Backend\User.php(70): App\Models\UserModel->getLeads(NULL, 'undefined')
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->leads('edit', 'undefined')
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#7 {main}
+CRITICAL - 2020-08-17 05:00:41 --> Undefined variable: data
+#0 D:\Projects\RealEstate\app\Models\UserModel.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 86, Array)
+#1 D:\Projects\RealEstate\app\Controllers\Backend\User.php(70): App\Models\UserModel->getLeads(NULL, 'undefined')
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->leads('edit', 'undefined')
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#7 {main}
+CRITICAL - 2020-08-17 05:02:45 --> Undefined variable: section
+#0 D:\Projects\RealEstate\app\Views\backend\customers.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 21, Array)
+#1 D:\Projects\RealEstate\system\View\View.php(246): include('D:\\Projects\\Rea...')
+#2 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('backend/custome...', Array, true)
+#3 D:\Projects\RealEstate\app\Controllers\Backend\User.php(121): view('backend/custome...', Array)
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->customers('33')
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-17 05:54:50 --> Undefined variable: data
+#0 D:\Projects\RealEstate\app\Models\UserModel.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 86, Array)
+#1 D:\Projects\RealEstate\app\Controllers\Backend\User.php(70): App\Models\UserModel->getLeads(NULL, '15')
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->leads('edit', '15')
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#7 {main}
+CRITICAL - 2020-08-17 05:58:38 --> Undefined variable: section
+#0 D:\Projects\RealEstate\app\Views\backend\customers.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 21, Array)
+#1 D:\Projects\RealEstate\system\View\View.php(246): include('D:\\Projects\\Rea...')
+#2 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('backend/custome...', Array, true)
+#3 D:\Projects\RealEstate\app\Controllers\Backend\User.php(121): view('backend/custome...', Array)
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->customers()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-17 06:01:34 --> Undefined index: status_badge
+#0 D:\Projects\RealEstate\app\Views\backend\settings.php(126): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Projects\\Rea...', 126, Array)
+#1 D:\Projects\RealEstate\system\View\View.php(246): include('D:\\Projects\\Rea...')
+#2 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('backend/setting...', Array, true)
+#3 D:\Projects\RealEstate\app\Controllers\Backend\Settings.php(21): view('backend/setting...', Array)
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\Settings->index()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Settings))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-17 06:23:40 --> Undefined variable: section
+#0 D:\Projects\RealEstate\app\Views\backend\customers.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 21, Array)
+#1 D:\Projects\RealEstate\system\View\View.php(246): include('D:\\Projects\\Rea...')
+#2 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('backend/custome...', Array, true)
+#3 D:\Projects\RealEstate\app\Controllers\Backend\User.php(121): view('backend/custome...', Array)
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->customers()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-17 07:12:24 --> Cannot redeclare App\Models\UserModel::$lead_source_tb
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-17 07:16:04 --> Cannot redeclare App\Models\UserModel::$lead_source_tb
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-17 07:23:51 --> Cannot redeclare App\Models\UserModel::$lead_source_tb
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-17 07:24:44 --> Cannot redeclare App\Models\UserModel::$lead_source_tb
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-17 07:24:46 --> Cannot redeclare App\Models\UserModel::$lead_source_tb
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-17 07:33:51 --> Undefined variable: data
+#0 D:\Projects\RealEstate\app\Models\UserModel.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 86, Array)
+#1 D:\Projects\RealEstate\app\Controllers\Backend\User.php(70): App\Models\UserModel->getLeads(NULL, '16')
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->leads('edit', '16')
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#7 {main}
+CRITICAL - 2020-08-17 07:43:17 --> Undefined variable: data
+#0 D:\Projects\RealEstate\app\Models\UserModel.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 86, Array)
+#1 D:\Projects\RealEstate\app\Controllers\Backend\User.php(70): App\Models\UserModel->getLeads(NULL, 'undefined')
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->leads('edit', 'undefined')
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#7 {main}
+CRITICAL - 2020-08-17 07:44:17 --> Undefined variable: data
+#0 D:\Projects\RealEstate\app\Models\UserModel.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 86, Array)
+#1 D:\Projects\RealEstate\app\Controllers\Backend\User.php(70): App\Models\UserModel->getLeads(NULL, 'undefined')
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->leads('edit', 'undefined')
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#7 {main}
+CRITICAL - 2020-08-17 07:44:44 --> Undefined variable: data
+#0 D:\Projects\RealEstate\app\Models\UserModel.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 86, Array)
+#1 D:\Projects\RealEstate\app\Controllers\Backend\User.php(70): App\Models\UserModel->getLeads(NULL, 'undefined')
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->leads('edit', 'undefined')
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#7 {main}
+CRITICAL - 2020-08-17 07:46:44 --> Undefined variable: data
+#0 D:\Projects\RealEstate\app\Models\UserModel.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 86, Array)
+#1 D:\Projects\RealEstate\app\Controllers\Backend\User.php(70): App\Models\UserModel->getLeads(NULL, '16')
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->leads('edit', '16')
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#7 {main}
+CRITICAL - 2020-08-17 07:46:54 --> Undefined variable: data
+#0 D:\Projects\RealEstate\app\Models\UserModel.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 86, Array)
+#1 D:\Projects\RealEstate\app\Controllers\Backend\User.php(70): App\Models\UserModel->getLeads(NULL, '16')
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->leads('edit', '16')
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#7 {main}
+CRITICAL - 2020-08-17 07:59:17 --> Undefined variable: section
+#0 D:\Projects\RealEstate\app\Views\backend\customers.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 21, Array)
+#1 D:\Projects\RealEstate\system\View\View.php(246): include('D:\\Projects\\Rea...')
+#2 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('backend/custome...', Array, true)
+#3 D:\Projects\RealEstate\app\Controllers\Backend\User.php(121): view('backend/custome...', Array)
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->customers('24')
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-17 07:59:29 --> Undefined variable: section
+#0 D:\Projects\RealEstate\app\Views\backend\customers.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 21, Array)
+#1 D:\Projects\RealEstate\system\View\View.php(246): include('D:\\Projects\\Rea...')
+#2 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('backend/custome...', Array, true)
+#3 D:\Projects\RealEstate\app\Controllers\Backend\User.php(121): view('backend/custome...', Array)
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->customers('24')
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-17 08:30:20 --> Undefined variable: data
+#0 D:\Projects\RealEstate\app\Models\UserModel.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 86, Array)
+#1 D:\Projects\RealEstate\app\Controllers\Backend\User.php(78): App\Models\UserModel->getLeads(NULL, NULL)
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->leads()
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#7 {main}
+CRITICAL - 2020-08-17 08:30:22 --> Undefined variable: data
+#0 D:\Projects\RealEstate\app\Models\UserModel.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 86, Array)
+#1 D:\Projects\RealEstate\app\Controllers\Backend\User.php(78): App\Models\UserModel->getLeads(NULL, NULL)
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->leads()
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#7 {main}
+CRITICAL - 2020-08-17 08:30:24 --> Undefined variable: data
+#0 D:\Projects\RealEstate\app\Models\UserModel.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 86, Array)
+#1 D:\Projects\RealEstate\app\Controllers\Backend\User.php(70): App\Models\UserModel->getLeads(NULL, '12')
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->leads('edit', '12')
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#7 {main}
+CRITICAL - 2020-08-17 08:30:27 --> Undefined variable: data
+#0 D:\Projects\RealEstate\app\Models\UserModel.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 86, Array)
+#1 D:\Projects\RealEstate\app\Controllers\Backend\User.php(78): App\Models\UserModel->getLeads(NULL, NULL)
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->leads()
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#7 {main}
+CRITICAL - 2020-08-17 08:30:29 --> Undefined variable: data
+#0 D:\Projects\RealEstate\app\Models\UserModel.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 86, Array)
+#1 D:\Projects\RealEstate\app\Controllers\Backend\User.php(78): App\Models\UserModel->getLeads(NULL, NULL)
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->leads()
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#7 {main}
+CRITICAL - 2020-08-17 08:33:47 --> Undefined variable: section
+#0 D:\Projects\RealEstate\app\Views\backend\customers.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 21, Array)
+#1 D:\Projects\RealEstate\system\View\View.php(246): include('D:\\Projects\\Rea...')
+#2 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('backend/custome...', Array, true)
+#3 D:\Projects\RealEstate\app\Controllers\Backend\User.php(121): view('backend/custome...', Array)
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->customers('25')
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-17 08:36:04 --> Undefined variable: section
+#0 D:\Projects\RealEstate\app\Views\backend\customers.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 21, Array)
+#1 D:\Projects\RealEstate\system\View\View.php(246): include('D:\\Projects\\Rea...')
+#2 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('backend/custome...', Array, true)
+#3 D:\Projects\RealEstate\app\Controllers\Backend\User.php(121): view('backend/custome...', Array)
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->customers('25')
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-17 08:40:32 --> Undefined variable: section
+#0 D:\Projects\RealEstate\app\Views\backend\customers.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 21, Array)
+#1 D:\Projects\RealEstate\system\View\View.php(246): include('D:\\Projects\\Rea...')
+#2 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('backend/custome...', Array, true)
+#3 D:\Projects\RealEstate\app\Controllers\Backend\User.php(121): view('backend/custome...', Array)
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->customers()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-17 10:00:56 --> json_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', 'D:\\Projects\\Rea...', 461, Array)
+#1 D:\Projects\RealEstate\app\Helpers\common_helper.php(461): json_decode(Array, true)
+#2 D:\Projects\RealEstate\app\Views\frontend\profile.php(13): allowedImageExt()
+#3 D:\Projects\RealEstate\system\View\View.php(246): include('D:\\Projects\\Rea...')
+#4 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('frontend/profil...', Array, true)
+#5 D:\Projects\RealEstate\app\Controllers\Account.php(68): view('frontend/profil...', Array)
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Account->profile()
+#7 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#8 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#11 {main}
+CRITICAL - 2020-08-17 10:39:25 --> Undefined variable: section
+#0 D:\Projects\RealEstate\app\Views\backend\customers.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 21, Array)
+#1 D:\Projects\RealEstate\system\View\View.php(246): include('D:\\Projects\\Rea...')
+#2 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('backend/custome...', Array, true)
+#3 D:\Projects\RealEstate\app\Controllers\Backend\User.php(121): view('backend/custome...', Array)
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->customers()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-17 10:56:37 --> Undefined variable: i
+#0 D:\Projects\RealEstate\app\Controllers\Account.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 70, Array)
+#1 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Account->profile()
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#6 {main}
+CRITICAL - 2020-08-17 10:58:16 --> Undefined variable: i
+#0 D:\Projects\RealEstate\app\Controllers\Account.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 70, Array)
+#1 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Account->profile()
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#6 {main}
+CRITICAL - 2020-08-17 10:58:18 --> Undefined variable: i
+#0 D:\Projects\RealEstate\app\Controllers\Account.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 70, Array)
+#1 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Account->profile()
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#6 {main}
+CRITICAL - 2020-08-17 10:58:18 --> Undefined variable: i
+#0 D:\Projects\RealEstate\app\Controllers\Account.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 70, Array)
+#1 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Account->profile()
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#6 {main}
+CRITICAL - 2020-08-17 10:58:19 --> Undefined variable: i
+#0 D:\Projects\RealEstate\app\Controllers\Account.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 70, Array)
+#1 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Account->profile()
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#6 {main}
+CRITICAL - 2020-08-17 10:58:19 --> Undefined variable: i
+#0 D:\Projects\RealEstate\app\Controllers\Account.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 70, Array)
+#1 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Account->profile()
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#6 {main}
+CRITICAL - 2020-08-17 10:58:47 --> Undefined variable: i
+#0 D:\Projects\RealEstate\app\Controllers\Account.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 70, Array)
+#1 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Account->profile()
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#6 {main}
+CRITICAL - 2020-08-17 11:00:33 --> Undefined variable: i
+#0 D:\Projects\RealEstate\app\Controllers\Account.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 70, Array)
+#1 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Account->profile()
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#6 {main}
+CRITICAL - 2020-08-17 11:02:31 --> Undefined variable: i
+#0 D:\Projects\RealEstate\app\Controllers\Account.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 71, Array)
+#1 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Account->profile()
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#6 {main}
+CRITICAL - 2020-08-17 11:02:54 --> Undefined variable: i
+#0 D:\Projects\RealEstate\app\Controllers\Account.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 71, Array)
+#1 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Account->profile()
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#6 {main}
+CRITICAL - 2020-08-17 11:04:42 --> Undefined variable: i
+#0 D:\Projects\RealEstate\app\Controllers\Account.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 71, Array)
+#1 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Account->profile()
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#6 {main}
+CRITICAL - 2020-08-17 11:11:09 --> Undefined property: App\Controllers\Account::$Crud
+#0 D:\Projects\RealEstate\app\Controllers\Account.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Projects\\Rea...', 52, Array)
+#1 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Account->profile()
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#6 {main}
+CRITICAL - 2020-08-17 11:20:54 --> Call to undefined method App\Controllers\Account::watermarkPropertyImages()
+#0 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Account->profile()
+#1 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#5 {main}
+CRITICAL - 2020-08-17 11:59:59 --> Undefined offset: 0
+#0 D:\Projects\RealEstate\app\Models\AccountModel.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\Projects\\Rea...', 35, Array)
+#1 D:\Projects\RealEstate\app\Controllers\Account.php(49): App\Models\AccountModel->removeUserProfilePic('25')
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Account->profile()
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#7 {main}
+CRITICAL - 2020-08-17 12:01:31 --> Undefined offset: 0
+#0 D:\Projects\RealEstate\app\Models\AccountModel.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\Projects\\Rea...', 36, Array)
+#1 D:\Projects\RealEstate\app\Controllers\Account.php(49): App\Models\AccountModel->removeUserProfilePic('25')
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Account->profile()
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#7 {main}
+CRITICAL - 2020-08-17 12:07:28 --> count(): Parameter must be an array or an object that implements Countable
+#0 D:\Projects\RealEstate\app\Helpers\common_helper.php(434): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'D:\\Projects\\Rea...', 434, Array)
+#1 D:\Projects\RealEstate\app\Views\frontend\dashboard\tabs.php(8): tabNotificationCount()
+#2 D:\Projects\RealEstate\system\View\View.php(246): include('D:\\Projects\\Rea...')
+#3 D:\Projects\RealEstate\system\View\View.php(525): CodeIgniter\View\View->render('frontend/dashbo...', NULL, true)
+#4 D:\Projects\RealEstate\app\Views\frontend\dashboard\dashboard.php(18): CodeIgniter\View\View->include('frontend/dashbo...')
+#5 D:\Projects\RealEstate\system\View\View.php(246): include('D:\\Projects\\Rea...')
+#6 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#7 D:\Projects\RealEstate\app\Controllers\Dashboard.php(23): view('frontend/dashbo...', Array)
+#8 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Dashboard->index()
+#9 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#10 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#13 {main}
+CRITICAL - 2020-08-17 12:10:43 --> count(): Parameter must be an array or an object that implements Countable
+#0 D:\Projects\RealEstate\app\Helpers\common_helper.php(434): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'D:\\Projects\\Rea...', 434, Array)
+#1 D:\Projects\RealEstate\app\Views\frontend\dashboard\tabs.php(8): tabNotificationCount()
+#2 D:\Projects\RealEstate\system\View\View.php(246): include('D:\\Projects\\Rea...')
+#3 D:\Projects\RealEstate\system\View\View.php(525): CodeIgniter\View\View->render('frontend/dashbo...', NULL, true)
+#4 D:\Projects\RealEstate\app\Views\frontend\dashboard\dashboard.php(18): CodeIgniter\View\View->include('frontend/dashbo...')
+#5 D:\Projects\RealEstate\system\View\View.php(246): include('D:\\Projects\\Rea...')
+#6 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#7 D:\Projects\RealEstate\app\Controllers\Dashboard.php(23): view('frontend/dashbo...', Array)
+#8 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Dashboard->index()
+#9 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#10 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#13 {main}
+CRITICAL - 2020-08-17 12:12:22 --> Undefined offset: 0
+#0 D:\Projects\RealEstate\app\Controllers\Backend\User.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\Projects\\Rea...', 70, Array)
+#1 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->leads('edit', '17')
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#6 {main}
+CRITICAL - 2020-08-17 12:13:06 --> Undefined index: status_badge
+#0 D:\Projects\RealEstate\app\Views\backend\settings.php(126): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Projects\\Rea...', 126, Array)
+#1 D:\Projects\RealEstate\system\View\View.php(246): include('D:\\Projects\\Rea...')
+#2 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('backend/setting...', Array, true)
+#3 D:\Projects\RealEstate\app\Controllers\Backend\Settings.php(21): view('backend/setting...', Array)
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\Settings->index()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Settings))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-17 12:15:46 --> Undefined variable: data
+#0 D:\Projects\RealEstate\app\Controllers\Dashboard.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 96, Array)
+#1 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Dashboard->reviews()
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#6 {main}
+CRITICAL - 2020-08-17 12:16:03 --> File not found: D:\Projects\RealEstate\writable\../public/user-images/1597684563_03fc8909e35552f65ff1.jpg
+#0 D:\Projects\RealEstate\system\Files\File.php(74): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('D:\\Projects\\Rea...')
+#1 D:\Projects\RealEstate\system\Images\Handlers\BaseHandler.php(170): CodeIgniter\Files\File->__construct('D:\\Projects\\Rea...', true)
+#2 D:\Projects\RealEstate\app\Controllers\Account.php(58): CodeIgniter\Images\Handlers\BaseHandler->withFile('D:\\Projects\\Rea...')
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Account->profile()
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#8 {main}
+CRITICAL - 2020-08-17 12:23:18 --> unlink(D:\Projects\RealEstate\writable\../public/user-images/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(D:\\Proje...', 'D:\\Projects\\Rea...', 36, Array)
+#1 D:\Projects\RealEstate\app\Models\AccountModel.php(36): unlink('D:\\Projects\\Rea...')
+#2 D:\Projects\RealEstate\app\Controllers\Account.php(49): App\Models\AccountModel->removeUserProfilePic('23')
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Account->profile()
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#8 {main}
+CRITICAL - 2020-08-17 12:24:58 --> unlink(./public/user-images/): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(./public...', 'D:\\Projects\\Rea...', 36, Array)
+#1 D:\Projects\RealEstate\app\Models\AccountModel.php(36): unlink('./public/user-i...')
+#2 D:\Projects\RealEstate\app\Controllers\Account.php(49): App\Models\AccountModel->removeUserProfilePic('23')
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Account->profile()
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#8 {main}
+CRITICAL - 2020-08-17 12:25:40 --> unlink(./public/user-images/): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(./public...', 'D:\\Projects\\Rea...', 36, Array)
+#1 D:\Projects\RealEstate\app\Models\AccountModel.php(36): unlink('./public/user-i...')
+#2 D:\Projects\RealEstate\app\Controllers\Account.php(49): App\Models\AccountModel->removeUserProfilePic('23')
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Account->profile()
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#8 {main}
+CRITICAL - 2020-08-17 12:34:39 --> Invalid argument supplied for foreach()
+#0 D:\Projects\RealEstate\app\Views\backend\agents.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\Projects\\Rea...', 68, Array)
+#1 D:\Projects\RealEstate\system\View\View.php(246): include('D:\\Projects\\Rea...')
+#2 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('backend/agents', Array, true)
+#3 D:\Projects\RealEstate\app\Controllers\Backend\User.php(106): view('backend/agents', Array)
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\User->agents('profile')
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-17 12:39:09 --> unlink(D:\Projects\RealEstate\public\/public/user-images/): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(D:\\Proje...', 'D:\\Projects\\Rea...', 36, Array)
+#1 D:\Projects\RealEstate\app\Models\AccountModel.php(36): unlink('D:\\Projects\\Rea...')
+#2 D:\Projects\RealEstate\app\Controllers\Account.php(49): App\Models\AccountModel->removeUserProfilePic('23')
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Account->profile()
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#8 {main}
+CRITICAL - 2020-08-17 12:40:36 --> unlink(D:\Projects\RealEstate\public\./public/user-images/): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(D:\\Proje...', 'D:\\Projects\\Rea...', 38, Array)
+#1 D:\Projects\RealEstate\app\Models\AccountModel.php(38): unlink('D:\\Projects\\Rea...')
+#2 D:\Projects\RealEstate\app\Controllers\Account.php(49): App\Models\AccountModel->removeUserProfilePic('23')
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Account->profile()
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#8 {main}
+CRITICAL - 2020-08-17 12:43:24 --> unlink(D:\Projects\RealEstate\public\./public/user-images/): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(D:\\Proje...', 'D:\\Projects\\Rea...', 40, Array)
+#1 D:\Projects\RealEstate\app\Models\AccountModel.php(40): unlink('D:\\Projects\\Rea...')
+#2 D:\Projects\RealEstate\app\Controllers\Account.php(49): App\Models\AccountModel->removeUserProfilePic('23')
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Account->profile()
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#8 {main}
+CRITICAL - 2020-08-17 12:44:26 --> unlink(D:\Projects\RealEstate\public\user-images/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(D:\\Proje...', 'D:\\Projects\\Rea...', 40, Array)
+#1 D:\Projects\RealEstate\app\Models\AccountModel.php(40): unlink('D:\\Projects\\Rea...')
+#2 D:\Projects\RealEstate\app\Controllers\Account.php(49): App\Models\AccountModel->removeUserProfilePic('23')
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Account->profile()
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#8 {main}
+CRITICAL - 2020-08-17 12:46:45 --> unlink(D:\Projects\RealEstate\public\user-images/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(D:\\Proje...', 'D:\\Projects\\Rea...', 40, Array)
+#1 D:\Projects\RealEstate\app\Models\AccountModel.php(40): unlink('D:\\Projects\\Rea...')
+#2 D:\Projects\RealEstate\app\Controllers\Account.php(49): App\Models\AccountModel->removeUserProfilePic('23')
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Account->profile()
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#8 {main}
+CRITICAL - 2020-08-17 13:11:41 --> Undefined variable: profile
+#0 D:\Projects\RealEstate\app\Views\frontend\property.php(206): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 206, Array)
+#1 D:\Projects\RealEstate\system\View\View.php(246): include('D:\\Projects\\Rea...')
+#2 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('frontend/proper...', Array, true)
+#3 D:\Projects\RealEstate\app\Controllers\Property.php(54): view('frontend/proper...', Array)
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Property->index()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Property))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-17 14:53:19 --> Undefined index: status_badge
+#0 D:\Projects\RealEstate\app\Views\backend\settings.php(126): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Projects\\Rea...', 126, Array)
+#1 D:\Projects\RealEstate\system\View\View.php(246): include('D:\\Projects\\Rea...')
+#2 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('backend/setting...', Array, true)
+#3 D:\Projects\RealEstate\app\Controllers\Backend\Settings.php(21): view('backend/setting...', Array)
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\Settings->index()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Settings))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-17 22:52:36 --> No connection could be made because the target machine actively refused it.
+
+#0 D:\Projects\RealEstate\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Projects\RealEstate\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Projects\RealEstate\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\Projects\RealEstate\app\Models\PropertyModel.php(140): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\Projects\RealEstate\app\Controllers\Home.php(17): App\Models\PropertyModel->getAllFeaturedProperties(1)
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#10 {main}
+CRITICAL - 2020-08-17 22:52:36 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in D:\Projects\RealEstate\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'D:\\Projects\\Rea...', 100, Array)
+#1 D:\Projects\RealEstate\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Home), true)
+#2 D:\Projects\RealEstate\system\Debug\Exceptions.php(299): include('D:\\Projects\\Rea...')
+#3 D:\Projects\RealEstate\system\Debug\Exceptions.php(172): CodeIgniter\Debug\Exceptions->render(Object(mysqli_sql_exception), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-17 23:04:27 --> Undefined variable: data
+#0 D:\Projects\RealEstate\app\Controllers\Dashboard.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 64, Array)
+#1 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Dashboard->sales()
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#6 {main}

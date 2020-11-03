@@ -1,0 +1,27 @@
+CRITICAL - 2020-09-12 06:49:29 --> Undefined offset: 0
+#0 D:\Projects\RealEstate\app\Controllers\Backend\Tickets.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\Projects\\Rea...', 60, Array)
+#1 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\Tickets->openTicket('login')
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Tickets))
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#6 {main}
+CRITICAL - 2020-09-12 07:39:27 --> Call to undefined function totalUserReviews()
+#0 D:\Projects\RealEstate\system\View\View.php(246): include()
+#1 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('frontend/public...', Array, true)
+#2 D:\Projects\RealEstate\app\Controllers\Home.php(234): view('frontend/public...', Array)
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Home->publicProfile()
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#8 {main}
+CRITICAL - 2020-09-12 07:43:24 --> Undefined variable: data
+#0 D:\Projects\RealEstate\app\Models\UserModel.php(329): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 329, Array)
+#1 D:\Projects\RealEstate\app\Controllers\Home.php(192): App\Models\UserModel->getUserIdFromUsername('facebook.com')
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Home->publicProfile()
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#7 {main}

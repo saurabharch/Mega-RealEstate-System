@@ -1,0 +1,44 @@
+CRITICAL - 2020-07-12 18:43:12 --> Class 'App\Controllers\Frontend\BaseController' not found
+#0 D:\Projects\RealEstate\system\Router\Router.php(575): include_once()
+#1 D:\Projects\RealEstate\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('Frontend/accoun...')
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('Frontend/accoun...')
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-07-12 18:43:17 --> Class 'App\Controllers\Frontend\BaseController' not found
+#0 D:\Projects\RealEstate\system\Router\Router.php(575): include_once()
+#1 D:\Projects\RealEstate\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('Frontend/Accoun...')
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('Frontend/Accoun...')
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-07-12 18:43:23 --> Class 'App\Controllers\Frontend\BaseController' not found
+#0 D:\Projects\RealEstate\system\Router\Router.php(575): include_once()
+#1 D:\Projects\RealEstate\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('frontend/Accoun...')
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('frontend/Accoun...')
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-07-12 19:36:53 --> Invalid file: {0}
+#0 D:\Projects\RealEstate\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('rent.php')
+#1 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('rent', Array, true)
+#2 D:\Projects\RealEstate\app\Controllers\Home.php(26): view('rent', Array)
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Home->rent()
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#8 {main}
+CRITICAL - 2020-07-12 19:37:35 --> Invalid file: {0}
+#0 D:\Projects\RealEstate\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('rent.php')
+#1 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('rent', Array, true)
+#2 D:\Projects\RealEstate\app\Controllers\Home.php(26): view('rent', Array)
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Home->rent()
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#8 {main}

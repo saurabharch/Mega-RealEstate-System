@@ -1,0 +1,103 @@
+CRITICAL - 2020-07-09 06:20:51 --> Call to a member function view() on null
+#0 D:\Projects\RealEstate\system\View\View.php(246): include()
+#1 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('common/content', Array, true)
+#2 D:\Projects\RealEstate\app\Controllers\Home.php(8): view('common/content')
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-07-09 06:21:58 --> Call to a member function view() on null
+#0 D:\Projects\RealEstate\system\View\View.php(246): include()
+#1 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('common/content', Array, true)
+#2 D:\Projects\RealEstate\app\Controllers\Home.php(8): view('common/content', Array)
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-07-09 06:22:00 --> Call to a member function view() on null
+#0 D:\Projects\RealEstate\system\View\View.php(246): include()
+#1 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('common/content', Array, true)
+#2 D:\Projects\RealEstate\app\Controllers\Home.php(8): view('common/content', Array)
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-07-09 06:22:01 --> Call to a member function view() on null
+#0 D:\Projects\RealEstate\system\View\View.php(246): include()
+#1 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('common/content', Array, true)
+#2 D:\Projects\RealEstate\app\Controllers\Home.php(8): view('common/content', Array)
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-07-09 06:22:33 --> Call to a member function view() on null
+#0 D:\Projects\RealEstate\system\View\View.php(246): include()
+#1 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('common/content', Array, true)
+#2 D:\Projects\RealEstate\app\Controllers\Home.php(8): view('common/content', Array)
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-07-09 07:27:50 --> Call to a member function view() on null
+#0 D:\Projects\RealEstate\system\View\View.php(246): include()
+#1 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('common/content', Array, true)
+#2 D:\Projects\RealEstate\app\Controllers\Home.php(8): view('common/content')
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-07-09 08:06:27 --> Argument 1 passed to view() must be of the type string, null given, called in D:\Projects\RealEstate\app\Views\common\content.php on line 2
+#0 D:\Projects\RealEstate\app\Views\common\content.php(2): view(NULL)
+#1 D:\Projects\RealEstate\system\View\View.php(246): include('D:\\Projects\\Rea...')
+#2 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('common/content', Array, true)
+#3 D:\Projects\RealEstate\app\Controllers\Home.php(8): view('common/content')
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-07-09 08:10:08 --> Invalid file: {0}
+#0 D:\Projects\RealEstate\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('header.php')
+#1 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('header', Array, true)
+#2 D:\Projects\RealEstate\app\Views\common\content.php(1): view('header')
+#3 D:\Projects\RealEstate\system\View\View.php(246): include('D:\\Projects\\Rea...')
+#4 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('common/content', Array, true)
+#5 D:\Projects\RealEstate\app\Controllers\Home.php(8): view('common/content', Array)
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#7 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-07-09 08:15:20 --> Invalid file: {0}
+#0 D:\Projects\RealEstate\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('common/content....')
+#1 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('common/content', Array, true)
+#2 D:\Projects\RealEstate\app\Controllers\Home.php(8): view('common/content', Array)
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-07-09 08:15:22 --> Invalid file: {0}
+#0 D:\Projects\RealEstate\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('common/content....')
+#1 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('common/content', Array, true)
+#2 D:\Projects\RealEstate\app\Controllers\Home.php(8): view('common/content', Array)
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-07-09 08:16:07 --> Invalid file: {0}
+#0 D:\Projects\RealEstate\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('common/content....')
+#1 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('common/content', Array, true)
+#2 D:\Projects\RealEstate\app\Controllers\Home.php(8): view('common/content', Array)
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

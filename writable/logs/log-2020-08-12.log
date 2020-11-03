@@ -1,0 +1,174 @@
+CRITICAL - 2020-08-12 07:19:04 --> No connection could be made because the target machine actively refused it.
+
+#0 D:\Projects\RealEstate\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Projects\RealEstate\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Projects\RealEstate\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\Projects\RealEstate\app\Models\PropertyModel.php(134): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\Projects\RealEstate\app\Controllers\Home.php(16): App\Models\PropertyModel->getAllFeaturedProperties()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#10 {main}
+CRITICAL - 2020-08-12 07:19:04 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in D:\Projects\RealEstate\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'D:\\Projects\\Rea...', 100, Array)
+#1 D:\Projects\RealEstate\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Home), true)
+#2 D:\Projects\RealEstate\system\Debug\Exceptions.php(299): include('D:\\Projects\\Rea...')
+#3 D:\Projects\RealEstate\system\Debug\Exceptions.php(172): CodeIgniter\Debug\Exceptions->render(Object(mysqli_sql_exception), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-12 08:01:50 --> Undefined variable: data
+#0 D:\Projects\RealEstate\app\Models\PropertyModel.php(328): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 328, Array)
+#1 D:\Projects\RealEstate\app\Controllers\Account.php(116): App\Models\PropertyModel->getPropertiesByUserFavourite('25')
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Account->favourites()
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#7 {main}
+CRITICAL - 2020-08-12 18:03:07 --> No connection could be made because the target machine actively refused it.
+
+#0 D:\Projects\RealEstate\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Projects\RealEstate\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Projects\RealEstate\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\Projects\RealEstate\app\Models\PropertyModel.php(134): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\Projects\RealEstate\app\Controllers\Home.php(16): App\Models\PropertyModel->getAllFeaturedProperties()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#10 {main}
+CRITICAL - 2020-08-12 18:03:07 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in D:\Projects\RealEstate\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'D:\\Projects\\Rea...', 100, Array)
+#1 D:\Projects\RealEstate\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Home), true)
+#2 D:\Projects\RealEstate\system\Debug\Exceptions.php(299): include('D:\\Projects\\Rea...')
+#3 D:\Projects\RealEstate\system\Debug\Exceptions.php(172): CodeIgniter\Debug\Exceptions->render(Object(mysqli_sql_exception), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-12 18:15:09 --> Cannot redeclare App\Models\PropertyModel::getAllSponsoredProperties()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-12 18:21:47 --> Undefined variable: sponsoredPropertiesAds
+#0 D:\Projects\RealEstate\app\Views\frontend\add-property.php(174): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 174, Array)
+#1 D:\Projects\RealEstate\system\View\View.php(246): include('D:\\Projects\\Rea...')
+#2 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('frontend/add-pr...', Array, true)
+#3 D:\Projects\RealEstate\app\Controllers\Property.php(197): view('frontend/add-pr...', Array)
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Property->addProperty()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Property))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-12 18:33:22 --> in_array() expects at least 2 parameters, 1 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'in_array() expe...', 'D:\\Projects\\Rea...', 175, Array)
+#1 D:\Projects\RealEstate\app\Views\frontend\add-property.php(175): in_array(Array)
+#2 D:\Projects\RealEstate\system\View\View.php(246): include('D:\\Projects\\Rea...')
+#3 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('frontend/add-pr...', Array, true)
+#4 D:\Projects\RealEstate\app\Controllers\Property.php(198): view('frontend/add-pr...', Array)
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Property->addProperty()
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Property))
+#7 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#10 {main}
+CRITICAL - 2020-08-12 18:48:51 --> Invalid argument supplied for foreach()
+#0 D:\Projects\RealEstate\app\Views\landing.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\Projects\\Rea...', 79, Array)
+#1 D:\Projects\RealEstate\system\View\View.php(246): include('D:\\Projects\\Rea...')
+#2 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('landing', Array, true)
+#3 D:\Projects\RealEstate\app\Controllers\Home.php(19): view('landing', Array)
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-12 19:11:15 --> Undefined index: type_name
+#0 D:\Projects\RealEstate\app\Views\frontend\add-property.php(186): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Projects\\Rea...', 186, Array)
+#1 D:\Projects\RealEstate\system\View\View.php(246): include('D:\\Projects\\Rea...')
+#2 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('frontend/add-pr...', Array, true)
+#3 D:\Projects\RealEstate\app\Controllers\Property.php(198): view('frontend/add-pr...', Array)
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Property->addProperty()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Property))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-12 19:14:45 --> syntax error, unexpected ')', expecting ',' or ';'
+#0 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('frontend/add-pr...', Array, true)
+#1 D:\Projects\RealEstate\app\Controllers\Property.php(198): view('frontend/add-pr...', Array)
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Property->addProperty()
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Property))
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#7 {main}
+CRITICAL - 2020-08-12 19:22:28 --> Invalid argument supplied for foreach()
+#0 D:\Projects\RealEstate\app\Views\landing.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\Projects\\Rea...', 79, Array)
+#1 D:\Projects\RealEstate\system\View\View.php(246): include('D:\\Projects\\Rea...')
+#2 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('landing', Array, true)
+#3 D:\Projects\RealEstate\app\Controllers\Home.php(19): view('landing', Array)
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-12 19:26:10 --> Call to undefined function humanize()
+#0 D:\Projects\RealEstate\system\View\View.php(246): include()
+#1 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('frontend/add-pr...', Array, true)
+#2 D:\Projects\RealEstate\app\Controllers\Property.php(198): view('frontend/add-pr...', Array)
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Property->addProperty()
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Property))
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#8 {main}
+CRITICAL - 2020-08-12 19:33:47 --> Invalid argument supplied for foreach()
+#0 D:\Projects\RealEstate\app\Views\landing.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\Projects\\Rea...', 79, Array)
+#1 D:\Projects\RealEstate\system\View\View.php(246): include('D:\\Projects\\Rea...')
+#2 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('landing', Array, true)
+#3 D:\Projects\RealEstate\app\Controllers\Home.php(19): view('landing', Array)
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-12 19:33:55 --> Undefined variable: data
+#0 D:\Projects\RealEstate\app\Models\PropertyModel.php(342): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 342, Array)
+#1 D:\Projects\RealEstate\app\Controllers\Account.php(116): App\Models\PropertyModel->getPropertiesByUserFavourite('25')
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Account->favourites()
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#7 {main}
+CRITICAL - 2020-08-12 20:17:34 --> Call to undefined function humanize()
+#0 D:\Projects\RealEstate\system\View\View.php(246): include()
+#1 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('frontend/profil...', Array, true)
+#2 D:\Projects\RealEstate\app\Controllers\Account.php(68): view('frontend/profil...', Array)
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Account->profile()
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#8 {main}
+CRITICAL - 2020-08-12 20:18:13 --> Undefined variable: data
+#0 D:\Projects\RealEstate\app\Models\PropertyModel.php(351): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 351, Array)
+#1 D:\Projects\RealEstate\app\Controllers\Account.php(118): App\Models\PropertyModel->getPropertiesByUserFavourite('25')
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Account->favourites()
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#7 {main}

@@ -1,0 +1,22 @@
+# this is my version (Nassim) of the htaccess file , I use this one in the root directory "/"
+# of the project and a second .htaccess in the public directory
+
+DirectoryIndex /public/index.php
+RewriteEngine on
+RewriteCond $1 !^(index\.php|images|assets|css|js|robots\.txt|favicon\.ico)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ ./public/index.php/$1 [L,QSA]
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php74” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php74 .php .php7 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-SSL} !on
+RewriteCond %{HTTP_HOST} ^propertyraja\.algobasket\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.propertyraja\.algobasket\.com$
+RewriteRule ^/?$ "https\:\/\/propertyraja\.algobasket\.com\/" [R=301,L]
+

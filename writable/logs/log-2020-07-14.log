@@ -1,0 +1,114 @@
+CRITICAL - 2020-07-14 07:13:19 --> syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF)
+#0 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('frontend/login-...', Array, true)
+#1 D:\Projects\RealEstate\app\Controllers\Auth.php(15): view('frontend/login-...', Array)
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Auth->login()
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#7 {main}
+CRITICAL - 2020-07-14 08:08:55 --> Too few arguments to function App\Controllers\Auth::login(), 0 passed in D:\Projects\RealEstate\system\CodeIgniter.php on line 914 and exactly 3 expected
+#0 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Auth->login()
+#1 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#5 {main}
+CRITICAL - 2020-07-14 08:09:02 --> Too few arguments to function App\Controllers\Auth::login(), 0 passed in D:\Projects\RealEstate\system\CodeIgniter.php on line 914 and exactly 3 expected
+#0 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Auth->login()
+#1 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#5 {main}
+CRITICAL - 2020-07-14 08:09:06 --> Too few arguments to function App\Controllers\Auth::login(), 0 passed in D:\Projects\RealEstate\system\CodeIgniter.php on line 914 and exactly 3 expected
+#0 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Auth->login()
+#1 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#5 {main}
+CRITICAL - 2020-07-14 08:09:18 --> Too few arguments to function App\Controllers\Auth::login(), 0 passed in D:\Projects\RealEstate\system\CodeIgniter.php on line 914 and exactly 3 expected
+#0 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Auth->login()
+#1 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#5 {main}
+CRITICAL - 2020-07-14 08:09:36 --> Call to a member function getPost() on null
+#0 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Auth->login()
+#1 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#5 {main}
+CRITICAL - 2020-07-14 08:09:39 --> Call to a member function getPost() on null
+#0 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Auth->login()
+#1 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#5 {main}
+CRITICAL - 2020-07-14 09:25:53 --> Call to undefined method CodeIgniter\Router\RouteCollection::request()
+#0 D:\Projects\RealEstate\system\CodeIgniter.php(776): require()
+#1 D:\Projects\RealEstate\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#5 {main}
+CRITICAL - 2020-07-14 10:32:21 --> Class 'App\Controllers\AuthModel' not found
+#0 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Auth->login()
+#1 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#5 {main}
+CRITICAL - 2020-07-14 10:51:23 --> Class 'App\Controllers\AuthModel' not found
+#0 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Auth->login()
+#1 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#5 {main}
+CRITICAL - 2020-07-14 11:10:30 --> Class 'App\Controllers\AuthModel' not found
+#0 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Auth->login()
+#1 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#5 {main}
+CRITICAL - 2020-07-14 11:11:41 --> Class 'App\Controllers\AuthModel' not found
+#0 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Auth->login()
+#1 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#5 {main}
+CRITICAL - 2020-07-14 11:32:33 --> Class 'App\Controllers\AuthModel' not found
+#0 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Auth->login()
+#1 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#5 {main}
+CRITICAL - 2020-07-14 11:33:02 --> Class 'App\Controllers\AuthModel' not found
+#0 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Auth->login()
+#1 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#5 {main}
+CRITICAL - 2020-07-14 11:42:26 --> Class 'App\Controllers\AuthModel' not found
+#0 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Auth->login()
+#1 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#5 {main}
+CRITICAL - 2020-07-14 11:42:42 --> Class 'App\Controllers\AuthModel' not found
+#0 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Auth->login()
+#1 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#5 {main}

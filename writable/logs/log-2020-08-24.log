@@ -1,0 +1,121 @@
+CRITICAL - 2020-08-24 14:58:56 --> No connection could be made because the target machine actively refused it.
+
+#0 D:\Projects\RealEstate\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Projects\RealEstate\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Projects\RealEstate\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\Projects\RealEstate\app\Models\PropertyModel.php(178): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\Projects\RealEstate\app\Controllers\Home.php(19): App\Models\PropertyModel->getAllFeaturedProperties(1)
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#10 {main}
+CRITICAL - 2020-08-24 14:58:56 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in D:\Projects\RealEstate\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'D:\\Projects\\Rea...', 100, Array)
+#1 D:\Projects\RealEstate\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Home), true)
+#2 D:\Projects\RealEstate\system\Debug\Exceptions.php(299): include('D:\\Projects\\Rea...')
+#3 D:\Projects\RealEstate\system\Debug\Exceptions.php(172): CodeIgniter\Debug\Exceptions->render(Object(mysqli_sql_exception), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-24 22:40:09 --> Too few arguments to function App\Models\UserModel::isUserSuspendedOrBanned(), 0 passed in D:\Projects\RealEstate\app\Controllers\BaseController.php on line 49 and exactly 1 expected
+#0 D:\Projects\RealEstate\app\Controllers\BaseController.php(49): App\Models\UserModel->isUserSuspendedOrBanned()
+#1 D:\Projects\RealEstate\system\CodeIgniter.php(887): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#6 {main}
+CRITICAL - 2020-08-24 22:40:22 --> Too few arguments to function App\Models\UserModel::isUserSuspendedOrBanned(), 0 passed in D:\Projects\RealEstate\app\Controllers\BaseController.php on line 49 and exactly 1 expected
+#0 D:\Projects\RealEstate\app\Controllers\BaseController.php(49): App\Models\UserModel->isUserSuspendedOrBanned()
+#1 D:\Projects\RealEstate\system\CodeIgniter.php(887): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#6 {main}
+CRITICAL - 2020-08-24 22:40:23 --> Too few arguments to function App\Models\UserModel::isUserSuspendedOrBanned(), 0 passed in D:\Projects\RealEstate\app\Controllers\BaseController.php on line 49 and exactly 1 expected
+#0 D:\Projects\RealEstate\app\Controllers\BaseController.php(49): App\Models\UserModel->isUserSuspendedOrBanned()
+#1 D:\Projects\RealEstate\system\CodeIgniter.php(887): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#6 {main}
+CRITICAL - 2020-08-24 22:40:25 --> Too few arguments to function App\Models\UserModel::isUserSuspendedOrBanned(), 0 passed in D:\Projects\RealEstate\app\Controllers\BaseController.php on line 49 and exactly 1 expected
+#0 D:\Projects\RealEstate\app\Controllers\BaseController.php(49): App\Models\UserModel->isUserSuspendedOrBanned()
+#1 D:\Projects\RealEstate\system\CodeIgniter.php(887): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#6 {main}
+CRITICAL - 2020-08-24 22:41:05 --> Unknown column '_usersstatus' in 'field list'
+#0 D:\Projects\RealEstate\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `_userss...')
+#1 D:\Projects\RealEstate\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `_userss...')
+#2 D:\Projects\RealEstate\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `_userss...')
+#3 D:\Projects\RealEstate\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT `_userss...', Array, false)
+#4 D:\Projects\RealEstate\app\Models\UserModel.php(172): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Projects\RealEstate\app\Controllers\BaseController.php(49): App\Models\UserModel->isUserSuspendedOrBanned('23')
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(887): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#7 D:\Projects\RealEstate\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#8 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#11 {main}
+CRITICAL - 2020-08-24 22:44:45 --> Invalid argument supplied for foreach()
+#0 D:\Projects\RealEstate\app\Views\frontend\dashboard\listings.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\Projects\\Rea...', 42, Array)
+#1 D:\Projects\RealEstate\system\View\View.php(246): include('D:\\Projects\\Rea...')
+#2 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('frontend/dashbo...', Array, true)
+#3 D:\Projects\RealEstate\app\Controllers\Dashboard.php(31): view('frontend/dashbo...', Array)
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Dashboard->listings()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-24 22:58:25 --> Undefined variable: role
+#0 D:\Projects\RealEstate\app\Views\frontend\login-auth.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 13, Array)
+#1 D:\Projects\RealEstate\system\View\View.php(246): include('D:\\Projects\\Rea...')
+#2 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('frontend/login-...', Array, true)
+#3 D:\Projects\RealEstate\app\Controllers\BaseController.php(53): view('frontend/login-...', Array)
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(887): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-08-24 23:02:30 --> Invalid file: frontend/acccount-status.php
+#0 D:\Projects\RealEstate\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/acccou...')
+#1 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('frontend/acccou...', Array, true)
+#2 D:\Projects\RealEstate\app\Controllers\BaseController.php(53): view('frontend/acccou...', Array)
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(887): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#8 {main}
+CRITICAL - 2020-08-24 23:02:43 --> Undefined variable: title
+#0 D:\Projects\RealEstate\app\Views\common\layout.php(138): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 138, Array)
+#1 D:\Projects\RealEstate\system\View\View.php(246): include('D:\\Projects\\Rea...')
+#2 D:\Projects\RealEstate\system\View\View.php(257): CodeIgniter\View\View->render('common/layout', Array, true)
+#3 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('frontend/accoun...', Array, true)
+#4 D:\Projects\RealEstate\app\Controllers\BaseController.php(53): view('frontend/accoun...', Array)
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(887): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#7 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#10 {main}
+CRITICAL - 2020-08-24 23:06:53 --> Argument 3 passed to view() must be of the type array, bool given, called in D:\Projects\RealEstate\app\Controllers\BaseController.php on line 54
+#0 D:\Projects\RealEstate\app\Controllers\BaseController.php(54): view('frontend/accoun...', Array, true)
+#1 D:\Projects\RealEstate\system\CodeIgniter.php(887): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#6 {main}

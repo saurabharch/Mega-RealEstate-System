@@ -1,0 +1,42 @@
+CRITICAL - 2020-08-07 07:05:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL' at line 5
+#0 D:\Projects\RealEstate\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `_proper...')
+#1 D:\Projects\RealEstate\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `_proper...')
+#2 D:\Projects\RealEstate\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `_proper...')
+#3 D:\Projects\RealEstate\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT `_proper...', Array, false)
+#4 D:\Projects\RealEstate\app\Models\PropertyModel.php(253): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Projects\RealEstate\app\Controllers\Home.php(72): App\Models\PropertyModel->searchPropertyAjax(NULL, NULL)
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Home->browse()
+#7 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#11 {main}
+CRITICAL - 2020-08-07 07:16:30 --> Undefined variable: data
+#0 D:\Projects\RealEstate\app\Controllers\Dashboard.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 68, Array)
+#1 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Dashboard->profit_target()
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#6 {main}
+CRITICAL - 2020-08-07 07:16:32 --> Undefined variable: data
+#0 D:\Projects\RealEstate\app\Controllers\Dashboard.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 84, Array)
+#1 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Dashboard->messages()
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#6 {main}
+CRITICAL - 2020-08-07 07:16:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL' at line 5
+#0 D:\Projects\RealEstate\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `_proper...')
+#1 D:\Projects\RealEstate\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `_proper...')
+#2 D:\Projects\RealEstate\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `_proper...')
+#3 D:\Projects\RealEstate\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT `_proper...', Array, false)
+#4 D:\Projects\RealEstate\app\Models\PropertyModel.php(253): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Projects\RealEstate\app\Controllers\Home.php(72): App\Models\PropertyModel->searchPropertyAjax(NULL, NULL)
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Home->browse()
+#7 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#11 {main}

@@ -1,0 +1,237 @@
+CRITICAL - 2020-09-28 03:59:52 --> No connection could be made because the target machine actively refused it.
+
+#0 D:\Projects\RealEstate\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Projects\RealEstate\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Projects\RealEstate\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\Projects\RealEstate\app\Models\PropertyModel.php(184): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\Projects\RealEstate\app\Controllers\Home.php(22): App\Models\PropertyModel->getAllFeaturedProperties(1)
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#10 {main}
+CRITICAL - 2020-09-28 03:59:53 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in D:\Projects\RealEstate\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'D:\\Projects\\Rea...', 100, Array)
+#1 D:\Projects\RealEstate\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Home), true)
+#2 D:\Projects\RealEstate\system\Debug\Exceptions.php(299): include('D:\\Projects\\Rea...')
+#3 D:\Projects\RealEstate\system\Debug\Exceptions.php(172): CodeIgniter\Debug\Exceptions->render(Object(mysqli_sql_exception), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-28 05:09:27 --> count(): Parameter must be an array or an object that implements Countable
+#0 D:\Projects\RealEstate\app\Views\backend\settings.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'D:\\Projects\\Rea...', 115, Array)
+#1 D:\Projects\RealEstate\system\View\View.php(246): include('D:\\Projects\\Rea...')
+#2 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('backend/setting...', Array, true)
+#3 D:\Projects\RealEstate\app\Controllers\Backend\Settings.php(21): view('backend/setting...', Array)
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\Settings->index()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Settings))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-09-28 05:09:50 --> count(): Parameter must be an array or an object that implements Countable
+#0 D:\Projects\RealEstate\app\Views\backend\settings.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'D:\\Projects\\Rea...', 115, Array)
+#1 D:\Projects\RealEstate\system\View\View.php(246): include('D:\\Projects\\Rea...')
+#2 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('backend/setting...', Array, true)
+#3 D:\Projects\RealEstate\app\Controllers\Backend\Settings.php(21): view('backend/setting...', Array)
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\Settings->index()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Settings))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-09-28 05:10:12 --> count(): Parameter must be an array or an object that implements Countable
+#0 D:\Projects\RealEstate\app\Views\backend\settings.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'D:\\Projects\\Rea...', 115, Array)
+#1 D:\Projects\RealEstate\system\View\View.php(246): include('D:\\Projects\\Rea...')
+#2 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('backend/setting...', Array, true)
+#3 D:\Projects\RealEstate\app\Controllers\Backend\Settings.php(21): view('backend/setting...', Array)
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\Settings->index()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Settings))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-09-28 05:10:21 --> count(): Parameter must be an array or an object that implements Countable
+#0 D:\Projects\RealEstate\app\Views\backend\settings.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'D:\\Projects\\Rea...', 115, Array)
+#1 D:\Projects\RealEstate\system\View\View.php(246): include('D:\\Projects\\Rea...')
+#2 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('backend/setting...', Array, true)
+#3 D:\Projects\RealEstate\app\Controllers\Backend\Settings.php(21): view('backend/setting...', Array)
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\Settings->index()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Settings))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-09-28 05:11:48 --> count(): Parameter must be an array or an object that implements Countable
+#0 D:\Projects\RealEstate\app\Views\backend\settings.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'D:\\Projects\\Rea...', 115, Array)
+#1 D:\Projects\RealEstate\system\View\View.php(246): include('D:\\Projects\\Rea...')
+#2 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('backend/setting...', Array, true)
+#3 D:\Projects\RealEstate\app\Controllers\Backend\Settings.php(21): view('backend/setting...', Array)
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\Settings->index()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Settings))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-09-28 05:11:50 --> count(): Parameter must be an array or an object that implements Countable
+#0 D:\Projects\RealEstate\app\Views\backend\settings.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'D:\\Projects\\Rea...', 115, Array)
+#1 D:\Projects\RealEstate\system\View\View.php(246): include('D:\\Projects\\Rea...')
+#2 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('backend/setting...', Array, true)
+#3 D:\Projects\RealEstate\app\Controllers\Backend\Settings.php(21): view('backend/setting...', Array)
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\Settings->index()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Settings))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-09-28 05:11:57 --> count(): Parameter must be an array or an object that implements Countable
+#0 D:\Projects\RealEstate\app\Views\backend\settings.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'D:\\Projects\\Rea...', 115, Array)
+#1 D:\Projects\RealEstate\system\View\View.php(246): include('D:\\Projects\\Rea...')
+#2 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('backend/setting...', Array, true)
+#3 D:\Projects\RealEstate\app\Controllers\Backend\Settings.php(21): view('backend/setting...', Array)
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\Settings->index()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Settings))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-09-28 05:13:23 --> Undefined variable: count
+#0 D:\Projects\RealEstate\app\Views\backend\settings.php(117): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 117, Array)
+#1 D:\Projects\RealEstate\system\View\View.php(246): include('D:\\Projects\\Rea...')
+#2 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('backend/setting...', Array, true)
+#3 D:\Projects\RealEstate\app\Controllers\Backend\Settings.php(21): view('backend/setting...', Array)
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\Settings->index()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Settings))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-09-28 05:13:25 --> Undefined variable: count
+#0 D:\Projects\RealEstate\app\Views\backend\settings.php(117): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 117, Array)
+#1 D:\Projects\RealEstate\system\View\View.php(246): include('D:\\Projects\\Rea...')
+#2 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('backend/setting...', Array, true)
+#3 D:\Projects\RealEstate\app\Controllers\Backend\Settings.php(21): view('backend/setting...', Array)
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\Settings->index()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Settings))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-09-28 05:13:26 --> Undefined variable: count
+#0 D:\Projects\RealEstate\app\Views\backend\settings.php(117): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 117, Array)
+#1 D:\Projects\RealEstate\system\View\View.php(246): include('D:\\Projects\\Rea...')
+#2 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('backend/setting...', Array, true)
+#3 D:\Projects\RealEstate\app\Controllers\Backend\Settings.php(21): view('backend/setting...', Array)
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\Settings->index()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Settings))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-09-28 05:13:28 --> Undefined variable: count
+#0 D:\Projects\RealEstate\app\Views\backend\settings.php(117): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 117, Array)
+#1 D:\Projects\RealEstate\system\View\View.php(246): include('D:\\Projects\\Rea...')
+#2 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('backend/setting...', Array, true)
+#3 D:\Projects\RealEstate\app\Controllers\Backend\Settings.php(21): view('backend/setting...', Array)
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\Settings->index()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Settings))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-09-28 05:13:29 --> Undefined variable: count
+#0 D:\Projects\RealEstate\app\Views\backend\settings.php(117): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 117, Array)
+#1 D:\Projects\RealEstate\system\View\View.php(246): include('D:\\Projects\\Rea...')
+#2 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('backend/setting...', Array, true)
+#3 D:\Projects\RealEstate\app\Controllers\Backend\Settings.php(21): view('backend/setting...', Array)
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Backend\Settings->index()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Settings))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
+CRITICAL - 2020-09-28 07:29:22 --> Too few arguments to function setJsFooter(), 0 passed in D:\Projects\RealEstate\app\Controllers\Auth.php on line 568 and exactly 1 expected
+#0 D:\Projects\RealEstate\app\Controllers\Auth.php(568): setJsFooter()
+#1 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Auth->test()
+#2 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#6 {main}
+CRITICAL - 2020-09-28 08:00:41 --> array_unique() expects parameter 1 to be array, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_unique() ...', 'D:\\Projects\\Rea...', 697, Array)
+#1 D:\Projects\RealEstate\app\Helpers\common_helper.php(697): array_unique('')
+#2 D:\Projects\RealEstate\app\Controllers\Auth.php(569): setJsFooter('http://localhos...')
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Auth->test()
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#8 {main}
+CRITICAL - 2020-09-28 08:01:00 --> array_unique() expects parameter 1 to be array, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_unique() ...', 'D:\\Projects\\Rea...', 697, Array)
+#1 D:\Projects\RealEstate\app\Helpers\common_helper.php(697): array_unique('')
+#2 D:\Projects\RealEstate\app\Controllers\Auth.php(568): setJsFooter('http://localhos...')
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Auth->test()
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#8 {main}
+CRITICAL - 2020-09-28 08:01:16 --> array_unique() expects parameter 1 to be array, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_unique() ...', 'D:\\Projects\\Rea...', 697, Array)
+#1 D:\Projects\RealEstate\app\Helpers\common_helper.php(697): array_unique('')
+#2 D:\Projects\RealEstate\app\Controllers\Auth.php(568): setJsFooter('http://localhos...')
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Auth->test()
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#8 {main}
+CRITICAL - 2020-09-28 08:01:17 --> array_unique() expects parameter 1 to be array, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_unique() ...', 'D:\\Projects\\Rea...', 697, Array)
+#1 D:\Projects\RealEstate\app\Helpers\common_helper.php(697): array_unique('')
+#2 D:\Projects\RealEstate\app\Controllers\Auth.php(568): setJsFooter('http://localhos...')
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Auth->test()
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#8 {main}
+CRITICAL - 2020-09-28 08:01:17 --> array_unique() expects parameter 1 to be array, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_unique() ...', 'D:\\Projects\\Rea...', 697, Array)
+#1 D:\Projects\RealEstate\app\Helpers\common_helper.php(697): array_unique('')
+#2 D:\Projects\RealEstate\app\Controllers\Auth.php(568): setJsFooter('http://localhos...')
+#3 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Auth->test()
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#8 {main}
+CRITICAL - 2020-09-28 08:27:05 --> Undefined variable: jsScript
+#0 D:\Projects\RealEstate\app\Views\common\layout.php(176): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Projects\\Rea...', 176, Array)
+#1 D:\Projects\RealEstate\system\View\View.php(246): include('D:\\Projects\\Rea...')
+#2 D:\Projects\RealEstate\system\View\View.php(257): CodeIgniter\View\View->render('common/layout', Array, true)
+#3 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('landing', Array, true)
+#4 D:\Projects\RealEstate\app\Controllers\Home.php(25): view('landing', Array)
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#10 {main}
+CRITICAL - 2020-09-28 08:31:39 --> Undefined property: CodeIgniter\View\View::$session
+#0 D:\Projects\RealEstate\app\Views\landing.php(167): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Projects\\Rea...', 167, Array)
+#1 D:\Projects\RealEstate\system\View\View.php(246): include('D:\\Projects\\Rea...')
+#2 D:\Projects\RealEstate\system\Common.php(1087): CodeIgniter\View\View->render('landing', Array, true)
+#3 D:\Projects\RealEstate\app\Controllers\Home.php(25): view('landing', Array)
+#4 D:\Projects\RealEstate\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#5 D:\Projects\RealEstate\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\Projects\RealEstate\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Projects\RealEstate\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Projects\RealEstate\system\Commands\Server\rewrite.php(34): require_once('D:\\Projects\\Rea...')
+#9 {main}
