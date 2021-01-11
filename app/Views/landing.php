@@ -9,11 +9,11 @@
 </style>
 
 
-<div class="corner-ribbon right">
+<!-- <div class="corner-ribbon right">
   <a href="https://github.com/algobasket/RealEstate" class="stretched-link text-white" target="__self">
     <b>Github</b>
   </a> 
-</div> 
+</div> --> 
 
 <?= $this->include('common/header');?>
 
