@@ -239,10 +239,6 @@ class Home extends BaseController
 
     public function test() 
     {   
-
-       // $StatisticModel = model('StatisticModel');
-    	// $r = $MessageModel->getAllUserContacts(21);
-    	// $r = $StatisticModel->totalTargetAmountByUser(24);
       $u = $this->UserModel->getUserRatings($userType = 'seller',$userId = 23,$status = 1);  
     	print_r($u);  
     }                  
